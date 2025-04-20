@@ -188,11 +188,15 @@ This page displays:
 - A link to the NiFi REST API documentation
 - A button to access the metrics endpoint
 
+![NiFi Exporter Main Page](img/nifi-exporter-main.png)
+
 The metrics are available at:
 
 ```
 http://localhost:9100/metrics
 ```
+
+![NiFi Exporter Metrics Page](img/nifi-exporter-metrics.png)
 
 The exporter collects metrics from the NiFi API every 5 seconds to provide near real-time monitoring.
 
