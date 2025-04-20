@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# nifi-exporter
-NiFi Exporter for Prometheus
-=======
 # NiFi Exporter for Prometheus
 
 A Prometheus exporter for Apache NiFi that collects metrics from the NiFi API and exposes them for Prometheus to scrape.
@@ -39,6 +35,10 @@ This exporter collects metrics from two NiFi API endpoints:
 - `nifi_api_up`: Whether the NiFi API is up (1) or down (0)
 - `nifi_scrape_count`: Number of scrapes
 - `nifi_scrape_errors`: Number of scrape errors
+
+## NiFi REST API Documentation
+
+This exporter uses the Apache NiFi REST API to collect metrics. For more information about the API, see the [Apache NiFi REST API Documentation](https://nifi.apache.org/docs/nifi-docs/rest-api/index.html).
 
 ## Requirements
 
@@ -261,4 +261,3 @@ The dashboard includes panels for:
 ## License
 
 See the [LICENSE](LICENSE) file for details.
->>>>>>> 3b5d8b0 (feat: add nifi exporter code.)
