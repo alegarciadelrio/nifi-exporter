@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nifi-exporter:
+    build: .
+    container_name: nifi-exporter
+    ports:
+      - "9100:9100"
+    environment:
+      - NIFI_URL=http://nifi-hostname:8080
+    restart: unless-stopped
